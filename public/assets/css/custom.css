@@ -1,0 +1,44 @@
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.navbar{
+  background: #040303;
+  border-color: #040303;
+  border-radius: 0px;
+    border: none;
+    width: 100%;
+
+}
+.navbar ul li{
+  width:180px;
+  text-align: center;
+}
+
+.navbar-default{
+  background: #040303;
+  color: #FFF;
+  width: 100%;
+
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background: #4D7A2A;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background: #4D7A2A;
+
+
+}
+
+input[type="text"],input[type="email"]{
+  height:40px;
+}
+
+

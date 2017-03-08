@@ -1,0 +1,129 @@
+/**
+* Authors: Joshua Santos, Sarah Conway
+* Joshua Santos URI: http://nerdsville.net/
+* Sarah Conway URI: http://sarahconway.com/
+*
+* -----------------------------------------
+* REFERENCE COLORS:
+* (in order from lightest to darkest)
+*
+* #286aaf: Light blue
+* #094074: Darker blue
+* #ebebeb: Off-white
+* #fe9000: Orange
+* #000102: Extremely dark gray, almost black
+*
+* -----------------------------------------
+* All padding: 0 0 0 0; and margin: 0 0 0 0; definitions are top, right, bottom, left specifications, respectively.
+*
+*/
+
+
+/* #BASIC */
+
+	.image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.image:before {
+			display: none;
+		}
+
+		.image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
+
+/* #FORM */
+
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select,
+	form textarea {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #BUTTON */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #LIST */
+
+	ul.contact li a {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+	ul.special a {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #COPYRIGHT */
+
+	#copyright {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #NAV */
+
+	#nav li a, #nav li span {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #SECTION, #ARTICLE */
+
+	section > .last-child, section.last-child, article > .last-child, article.last-child {
+		margin-bottom: 0;
+	}
+
+/* #WRAPPERS */
+
+	#banner-wrapper {
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#banner-wrapper:before {
+			display: none;
+		}
+
+/* #NAV */
+
+	#nav {
+		background: #f8f8f8;
+	}
+
+		#nav:after {
+			display: none;
+		}
+
+	.dropotron {
+		box-shadow: none !important;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* #BANNER */
+
+	#banner {
+		background: #151c17;
+	}
+
+		#banner:before {
+			display: none;
+		}
